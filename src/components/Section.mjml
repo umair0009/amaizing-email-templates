@@ -1,0 +1,3 @@
+<mj-section>
+  <mj-column padding="0"> ${this.getContent()} </mj-column>
+</mj-section>

@@ -1,0 +1,115 @@
+* {
+  font-family: Arial, sans-serif !important;
+}
+
+.main {
+  max-width: 600px !important;
+  margin: 0 auto;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #088ab2 !important;
+  font-weight: 600 !important;
+}
+
+strong {
+  font-weight: 600 !important;
+}
+
+/* new css */
+
+.container {
+  max-width: 523px !important;
+}
+
+.logo-sec > table > tbody > tr > td {
+  padding: 24px 0 32px 0 !important;
+}
+
+.logo-column {
+  display: flex !important;
+  padding: 24px 0 !important;
+}
+
+.ai.para-section > table > tbody > tr > td {
+  padding: 0 0 16px 0 !important;
+}
+
+.ai.para-text {
+  padding: 0 !important;
+}
+
+.ai.para-section
+  .mj-column-per-100.mj-outlook-group-fix.ai.para-col
+  table
+  tbody
+  tr
+  td
+  div {
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: #344054 !important;
+}
+
+.ai.footer-wrapper {
+  padding: 28px 0 20px 0;
+}
+
+.ai.footer-wrapper > table > tbody > tr > td {
+  padding: 0 !important;
+}
+
+.ai.footer-wrapper .ai.para-section > table > tbody > tr > td {
+  padding: 0 0 24px 0 !important;
+}
+
+.ai.footer-wrapper
+  .mj-column-per-100.mj-outlook-group-fix.ai.para-col
+  table
+  tbody
+  tr
+  td
+  div {
+  font-size: 12px !important;
+  line-height: 20px !important;
+}
+
+.ai.para-section.greeting-text table > tbody > tr > td {
+  padding-bottom: 0 !important;
+}
+
+.ai.btn table tbody tr td p,
+.ai.btn table tbody tr td a {
+  padding: 12px 18px !important;
+  color: white !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer;
+}
+
+.ai.btn table tbody tr td a img {
+  display: inline-block !important;
+  margin-left: 8px !important;
+}
+
+.ai.btn table tbody tr td {
+  padding: 0 !important;
+}
+
+.ai.btn {
+  padding: 32px 0 32px 0 !important;
+}
+
+.ai.footer.footer-sec table tbody tr td {
+  padding: 0 !important;
+}
+.footer-logo {
+  text-align: left !important;
+}
+
+/* new css */

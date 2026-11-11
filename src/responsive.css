@@ -1,0 +1,58 @@
+.ai.para-section > table > tbody > tr > td {
+  padding: 0 0 16px 0 !important;
+}
+
+.ai.para-section.padding-zero > table > tbody > tr > td {
+  padding-bottom: 0 !important;
+}
+
+@media screen and (min-width: 0px) and (max-width: 769px) {
+  .logo-sec > table > tbody > tr > td {
+    padding: 0 0 0 0 !important;
+  }
+
+  .logo-column {
+    padding: 24px !important;
+    width: auto !important;
+  }
+
+  .ai.para-section.greeting-text table > tbody > tr > td {
+    padding-bottom: 0 !important;
+  }
+
+  .ai.btn.btn-wrapper {
+    padding: 32px 24px !important;
+  }
+
+  .ai.footer-wrapper {
+    padding: 28px 24px 8px 24px;
+  }
+
+  .ai.footer.footer-sec
+    table
+    tbody
+    tr
+    td
+    > .mj-column-per-100.mj-outlook-group-fix
+    .footer-text {
+    padding: 12px 24px 36px 24px !important;
+  }
+
+  .footer-logo {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    text-align: left !important;
+  }
+
+  .ai.para-section > table > tbody > tr > td {
+    padding: 0 24px 16px 24px !important;
+  }
+
+  .ai.btn.subscribe-btn-wrapper {
+    margin: 16px 24px 32px 24px !important;
+  }
+
+  .ai.btn.subscribe-btn-wrapper table tbody tr td {
+    padding: 0 !important;
+  }
+}

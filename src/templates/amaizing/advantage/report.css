@@ -1,0 +1,74 @@
+.table-section {
+  margin: 0 0px 32px !important;
+}
+
+.table-section > table > tbody > tr > td {
+  padding: 0 !important;
+}
+
+.para-space {
+  padding-bottom: 16px !important;
+}
+
+.paragraph {
+  margin-bottom: 16px !important;
+  margin-top: 0 !important;
+}
+
+.ai.btn.meeting-btn.btn-wrapper table tbody tr td p {
+  margin: 0 !important;
+}
+
+.ai.para-section.button-link
+  .mj-column-per-100.mj-outlook-group-fix.ai.para-col
+  table
+  tbody
+  tr
+  td
+  div
+  > div {
+  font-size: 12px !important;
+  line-height: 18px !important;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  body {
+    padding: 0px !important;
+  }
+
+  .header-cell {
+    width: 28% !important;
+    padding: 8px !important;
+  }
+
+  .last-cell {
+    width: 28% !important;
+  }
+
+  .table-body-cell {
+    padding: 8px !important;
+  }
+
+  .competitor-name {
+    font-size: 12px !important;
+    line-height: 18px !important;
+  }
+
+  .revenue-amount {
+    font-size: 12px !important;
+    line-height: 18px !important;
+  }
+
+  .reason-text {
+    font-size: 12px !important;
+    line-height: 18px !important;
+  }
+
+  .para-space {
+    padding-bottom: 24px !important;
+  }
+
+  .table-section {
+    margin: 0 22px 24px !important;
+  }
+}

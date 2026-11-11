@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<mj-wrapper css-class="ai btn ${this.getAttribute('classes')}">
+  <mj-button
+    background-color="#06AED4"
+    color="#ffffff"
+    border-radius="8px"
+    inner-padding="0px"
+    padding="12px 24px"
+    font-size="16px"
+    font-weight="500"
+    align="left"
+    href="${this.getAttribute('href')}"
+  >
+    ${this.getContent()}
+  </mj-button>
+</mj-wrapper>

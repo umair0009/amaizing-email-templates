@@ -1,0 +1,21 @@
+<mjml>
+  <mj-head>
+    <mj-title>{{ subject }}</mj-title>
+    <mj-raw> <markdown-css-link /> </mj-raw>
+    <mj-style inline="inline">{{ @asset _markdownCssSrc }}</mj-style>
+  </mj-head>
+
+  <mj-body background-color="#FFFFFF">
+    <mj-wrapper css-class="container" padding="0">
+      <adv-header />
+
+      <para>
+        <mj-raw>
+          {{ @asset content }}
+        </mj-raw>
+      </para>
+
+      <adv-footer />
+    </mj-wrapper>
+  </mj-body>
+</mjml>

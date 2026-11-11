@@ -1,0 +1,13 @@
+<mj-wrapper css-class="ai btn ${this.getAttribute('classes')}">
+  <ai-section>
+    <ai-button href="${this.getAttribute('link')}"
+      >${this.getAttribute('text')}</ai-button
+    >
+  </ai-section>
+
+  <ai-section>
+    <mj-text font-size="12px" color="#344054" align="left" line-height="20px">
+      Button not working? ${this.getAttribute('link')}
+    </mj-text>
+  </ai-section>
+</mj-wrapper>

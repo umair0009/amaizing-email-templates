@@ -1,0 +1,96 @@
+<mjml>
+  <mj-head>
+    <mj-title>{{ title }}</mj-title>
+  </mj-head>
+
+  <mj-body background-color="#FFFFFF">
+    <mj-wrapper css-class="container" padding="0">
+      <mj-section css-class="logo-sec">
+        <mj-column width="190px" padding="0" css-class="no-padding logo-column">
+          <mj-image
+            src="{{ @asset AmaizingLogo3DHeader }}"
+            alt="Amaizing Advantage Beta"
+            align="left"
+            css-class="mobile-logo"
+            padding="0"
+          />
+        </mj-column>
+      </mj-section>
+
+      <para>
+        <mj-text>
+          Hi <strong style="text-transform: capitalize">{{ name }},</strong>
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text>
+          Thanks for asking us to map your market. Before we get to work, we
+          need to confirm this email address is yours – it&rsquo;s how we’ll
+          send every report from here.
+        </mj-text>
+      </para>
+
+      <para classes="padding-zero">
+        <mj-text> One click does it: </mj-text>
+      </para>
+      <ai-btn-ico
+        classes="btn-wrapper"
+        href="{{ base_url }}/verify-email?token={{ token }}"
+        iconSrc="https://app-stg.amaizing.io/pngs/arrow-circle-right.png"
+        >Verify my email</ai-btn-ico
+      >
+
+      <para>
+        <mj-text>
+          Once you’ve verified, we’ll start analyzing your market and your
+          Market Map will arrive at this address within 24 hours – the customer
+          behavior driving your category, the rivals competing for those
+          customers, and the search terms behind every move.</mj-text
+        >
+      </para>
+
+      <para>
+        <mj-text>
+          If you didn’t request this, you can ignore the email.
+        </mj-text>
+      </para>
+
+      <para classes="greeting-text">
+        <mj-text> Thanks, </mj-text>
+      </para>
+
+      <para>
+        <mj-text>
+          The
+          <strong
+            >Am<span style="color: #088ab2; text-decoration: underline">ai</span
+            >zing</strong
+          >
+          Team
+        </mj-text>
+      </para>
+
+      <mj-wrapper css-class="ai footer-wrapper ${this.getAttribute('classes')}">
+        <para>
+          <mj-text font-size="12px" font-font-weight="300" color="#344054"
+            >&#xA9; 2025 Amaizing, Inc., 8 The Green Suite B, Dover, DE 19901,
+            USA</mj-text
+          >
+        </para>
+        <mj-section>
+          <mj-column padding="0">
+            <mj-image
+              padding="0"
+              css-class="footer-logo"
+              width="32px"
+              height="28px"
+              src="{{ @asset AmaizingIcon3DFooter }}"
+              alt="Logomark"
+            />
+          </mj-column>
+        </mj-section>
+      </mj-wrapper>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

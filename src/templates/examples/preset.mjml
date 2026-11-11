@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-column> </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text css-class="subtitle">{{ subtitle }}</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>Perpendicular is the Next framework</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text>With {{ caps }} caps</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

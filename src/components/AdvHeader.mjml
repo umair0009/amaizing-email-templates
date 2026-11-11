@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<mj-section css-class="logo-sec">
+  <mj-column width="309px" padding="0" css-class="no-padding logo-column">
+    <mj-image
+      src="{{ @asset advBetaLogo }}"
+      alt="Amaizing Advantage Beta"
+      align="left"
+      css-class="mobile-logo"
+      padding="0"
+    />
+  </mj-column>
+</mj-section>

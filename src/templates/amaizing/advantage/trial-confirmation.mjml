@@ -1,0 +1,101 @@
+<mjml>
+  <mj-head>
+    <mj-title>We’re mapping your market – here’s what’s next</mj-title>
+  </mj-head>
+
+  <mj-body background-color="#FFFFFF">
+    <mj-wrapper css-class="container" padding="0">
+      <adv-header />
+
+      <para>
+        <mj-text>
+          Hi <strong>{{ first_name }}, </strong>
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text>
+          You've been added to our <strong>beta queue.</strong> We personally
+          work through every <strong>Rival Report</strong> — yours is in line
+          and we'll send it the moment it's ready.
+        </mj-text>
+      </para>
+      <para>
+        <mj-text>
+          Our team is pulling competitive data for
+          <a href="{{ product_link }}">{{ product_title }}</a> identifying your
+          true rivals — the handful actually pulling customers away from you –
+          and building the strategic picture of who's winning and why.
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text>
+          We're in beta and keeping intake intentionally limited. Every report
+          gets a human review before it lands in your inbox – that's what
+          separates intelligence from just another dashboard.
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text> In the meantime, here‘s what to expect: </mj-text>
+      </para>
+
+      <para>
+        <mj-raw>
+          <ul style="padding-left: 26px; margin: 0;"> <li><strong>🔎 Your true
+          rivals identified</strong> – not all 250 competitors, just the ones
+          that actually matter to your revenue</li> <li><strong>🏆 Where you can
+          win</strong> – specific vulnerabilities you can exploit</li>
+          <li><strong>👀 What to watch</strong> – market shifts that could
+          impact your sales</li> </ul>
+        </mj-raw>
+      </para>
+
+      <para>
+        <mj-text>
+          Most Amazon sellers spend 20-40 hours per week trying to track
+          competitors manually. You won’t have to.
+        </mj-text>
+      </para>
+
+      <para classes="greeting-text">
+        <mj-text>
+          You'll see what competitors are doing and how customers are responding
+          – not days or weeks later, but as it happens.
+        </mj-text>
+      </para>
+
+      <ai-btn-ico
+        classes="btn-wrapper"
+        href="https://vimeo.com/1166666934?share=copy&fl=sv&fe=ci"
+        iconSrc="https://app-stg.amaizing.io/pngs/play-circle.png"
+        >What’s in Your Rival Report</ai-btn-ico
+      >
+
+      <para>
+        <mj-text>
+          We'll be in touch as soon as your <strong>Rival Report</strong> is
+          ready.
+        </mj-text>
+      </para>
+
+      <para classes="greeting-text">
+        <mj-text> Thanks, </mj-text>
+      </para>
+
+      <para>
+        <mj-text>
+          The
+          <strong
+            >Am<span style="color: #088ab2; text-decoration: underline">ai</span
+            >zing</strong
+          >
+          Team
+        </mj-text>
+      </para>
+
+      <adv-footer />
+    </mj-wrapper>
+  </mj-body>
+</mjml>

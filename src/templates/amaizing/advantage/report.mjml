@@ -1,0 +1,212 @@
+<mjml>
+  <mj-head>
+    <mj-title
+      >{{ brand }}’s ${{ som }} market analysis: {{ num_rivals }} competitors,
+      {{ key_finding }}</mj-title
+    >
+  </mj-head>
+
+  <mj-body background-color="#FFFFFF">
+    <mj-wrapper css-class="main" padding="0">
+      <adv-header />
+
+      <para>
+        <mj-text>
+          Hi <strong>{{ first_name }} </strong>
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text>
+          I ran your
+          <a href="https://amazon.{{ amazon_tld }}/dp/{{ client_asin }}">{{
+            client_asin_title
+          }}</a>
+          (ASIN: {{ client_asin }}) through our competitive intelligence tool
+          and wanted to share what surfaced.
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text>
+          The analysis identified
+          <strong> {{ num_rivals }} direct competitors</strong> across your
+          category. They are capturing
+          <strong> ${{ som }} in monthly revenue.</strong>
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text>
+          {{#each market_analysis_summary}}
+          <p class="paragraph" style="">{{{ . }}}</p>
+          {{/each}}
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text>
+          {{#has_rivals
+
+          }}<span style="display: inline-block" class="para-space">
+            Below is a detailed analysis {{ ../num_top_rivals }} of your market
+            rivals:</span
+          >
+          {{/has_rivals}}
+        </mj-text>
+      </para>
+      <para>
+        <mj-raw>
+          {{#has_rivals}}
+          <table style="width:100%; border-spacing: 0; border-radius: 16px;
+          overflow: hidden; border:1px solid #D0D5DD !important; max-width:
+          100%;" class="table-section"> <!-- Table Header --> <tr> <td
+          class="header-cell" style="background-color: #f2f4f7; padding: 16px;
+          width:18%; border-right: 1px solid #d0d5dd; vertical-align: bottom">
+          <span class="revenue-header" style="font-size: 16px; font-weight: 600;
+          line-height: 24px; color: #088ab2">Rival &<br /> Rev/mo</span> </td>
+          <td class="header-cell" style="padding: 16px; border-right: 1px solid
+          #d0d5dd; background-color: #f2f4f7; width: 25%; vertical-align:
+          bottom"> <span class="revenue-header" style="font-size: 16px;
+          font-weight: 600; line-height: 24px; color: #088ab2">Their strength<br
+          /> vs you</span> </td> <td class="header-cell last-cell"
+          style="padding: 16px; background-color: #f2f4f7; width: 23%;
+          vertical-align: bottom"> <span class="revenue-header"
+          style="font-size: 16px; font-weight: 600; line-height: 24px; color:
+          #088ab2">Your advantage<br /> vs them</span> </td> </tr> <!-- Table
+          Rows -->
+          {{#each ../competitors}}
+          <tr> <td class="table-body-cell" style="padding: 16px;
+          background-color: #ffffff; border-right: 1px solid #e5e7eb;
+          border-top: 1px solid #e5e7eb; vertical-align: top"> <a
+          class="competitor-name" href="https://amazon.{{ ../../amazon_tld
+
+          }}/dp/{{ asin }}" target="_blank" style=" text-decoration: underline;
+          font-size: 16px; font-weight: 400; overflow: hidden; color: #088ab2;
+          display: -webkit-inline-box; -webkit-line-clamp: 4; width: 18ch;
+          text-overflow: ellipsis; -webkit-box-orient: vertical; ">
+          {{ rival_title }}
+          </a> <p style="font-size: 16px; line-height: 24px; color: #344054;
+          font-weight: 600; margin-top: 8px !important; margin-left: 0;
+          margin-right: 0; margin-bottom: 0;">${{ monthly_revenue }}/mo</p>
+          </td> <td class="table-body-cell" style="padding: 16px;
+          background-color: #ffffff; border-right: 1px solid #e5e7eb;
+          border-top: 1px solid #e5e7eb; vertical-align: top"> <span
+          class="revenue-amount" style="font-size: 16px; font-weight: 300;
+          color: #344054"> {{ strength_of_rival }} </span> </td> <td
+          class="table-body-cell" style="padding: 16px; background-color:
+          #ffffff; border-top: 1px solid #e5e7eb; vertical-align: top"> <span
+          class="reason-text" style="font-size: 16px; font-weight: 300; color:
+          #344054"> {{ advantage_over_rival }} </span> </td> </tr>
+          {{/each}}
+          </table>
+          {{/has_rivals}}
+        </mj-raw>
+      </para>
+
+      <para>
+        <mj-text>
+          What you’re seeing above typically takes
+          <strong
+            >{{#has_rivals}}20–30{{/has_rivals
+
+            }}{{^has_rivals}}several{{/has_rivals}} hours of weekly manual
+            analyst work.</strong
+          >
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text>
+          Our
+          <strong
+            ><span>Rev</span><span style="color: #088ab2">Up</span></strong
+          >
+          Engine automates this proactively by mapping full category revenue
+          dynamics, review velocity, and competitive positioning signals. This
+          is
+          <strong
+            >real competitive intelligence, not surface-level scraping.</strong
+          >
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text
+          ><strong>You’re already in our beta –</strong> I need your feedback on
+          whether these are the right competitors to track, what insights matter
+          most to you (price changes, ranking shifts, review velocity), and what
+          actions you’d take with this intelligence.
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text
+          ><strong
+            >In the end, only two opinions matter: your customers’ and
+            yours.</strong
+          >
+          We strive to provide you with the insights to achieve both, and we
+          believe that together with your inputs we have a much higher chance of
+          doing this for you. In exchange, I’ll show you:
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-raw>
+          <ul style="padding-left: 26px; margin: 0;"> <li><strong>Revenue trend
+          and seasonality</strong> across all tracked rivals so you can see
+          who’s gaining/losing share MoM and plan inventory/pricing
+          accordingly.</li> <li><strong>Review velocity tracking</strong> to
+          surface momentum early—often before it shows up in rank—so you can
+          respond with PDP upgrades or promos.</li> <li><strong>Positioning &
+          keyword gap analysis</strong> to pinpoint where your skylight-specific
+          value is invisible versus Prime/badge-led substitutes.</li> </ul>
+        </mj-raw>
+      </para>
+
+      <para>
+        <mj-text
+          ><strong>15 minutes, no pitch—just analysis and feedback.</strong>
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text>Best,<br />Anders </mj-text>
+      </para>
+
+      <para>
+        <mj-text
+          font-size="16px"
+          color="#344054"
+          font-weight="300"
+          line-height="24px"
+          padding="0 0 0 0"
+          >P.S. We’re working with a select group of ~100 brands whose feedback
+          shapes what we build. You’re one of them.
+        </mj-text>
+      </para>
+
+      <ai-button
+        classes="meeting-btn btn-wrapper"
+        href="https://revup{{ app_subdomain_suffix }}.amaizing.io/book-your-session?uuid={{uuid}}"
+        >Let's meet!</ai-button
+      >
+
+      <para classes="button-link">
+        <mj-text
+          padding="0"
+          font-size="12px"
+          line-height="18px"
+          color="#344054"
+        >
+          Button not working? https://revup{{
+            app_subdomain_suffix
+          }}.amaizing.io/book-your-session?uuid={{ uuid }}
+        </mj-text>
+      </para>
+
+      <adv-footer />
+    </mj-wrapper>
+  </mj-body>
+</mjml>

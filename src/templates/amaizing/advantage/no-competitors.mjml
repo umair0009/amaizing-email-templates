@@ -1,0 +1,68 @@
+<mjml>
+  <mj-head>
+    <mj-title
+      >We didn’t find rivals for your ASIN – let’s take a closer look</mj-title
+    >
+    <mj-font
+      name="Inter"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+  </mj-head>
+
+  <mj-body background-color="#FFFFFF">
+    <mj-wrapper css-class="main" padding="0">
+      <adv-header />
+
+      <para>
+        Hi <b style="font-weight: 500 !important">{{ first_name }}</b>
+      </para>
+
+      <para>
+        <mj-text>
+          Sorry, but our analysis didn't identify any great market opportunities
+          for
+          <a
+            style="color: #088ab2; font-weight: 400 !important"
+            href="https://amazon.{{ amazon_tld }}/dp/{{ client_asin }}"
+            >{{ client_asin }}</a
+          >
+          right now.
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text>
+          We are in BETA testing so this may be due to a technical error. Or it
+          could be that your ASIN is performing really strongly.
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text padding="0" css-class="description">
+          Book a meeting with our team and we can discuss how we unlock the full
+          potential of your ASIN.
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text css-class="text-font">
+          We look forward to chatting with you!
+        </mj-text>
+      </para>
+      <para classes="greeting-text">
+        <mj-text padding="0" css-class="description"
+          >Thanks for your understanding.</mj-text
+        >
+      </para>
+
+      <ai-cta
+        classes="btn-wrapper"
+        link="https://revup{{ app_subdomain_suffix }}.amaizing.io/book-your-session?uuid={{uuid}}"
+        text="Let's meet!"
+      >
+      </ai-cta>
+
+      <footer classes="footer-sec" />
+    </mj-wrapper>
+  </mj-body>
+</mjml>

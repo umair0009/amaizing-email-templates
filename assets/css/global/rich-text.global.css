@@ -1,0 +1,12 @@
+ul.rich-text li {
+  /* margin-bottom: 0.5rem !important; */
+}
+
+ul.rich-text {
+  margin: 0 !important;
+}
+
+ul.rich-text li b,
+ul.rich-text li strong {
+  font-weight: 500 !important;
+}

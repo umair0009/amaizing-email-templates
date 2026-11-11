@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<mjml>
+  <mj-head>
+    <mj-title
+      >We&#x2019;re mapping your market &#x2013; here&#x2019;s what&#x2019;s
+      next</mj-title
+    >
+    <mj-include path="../../../partials/attributes.mjml" />
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+    <mj-wrapper css-class="add-asin-wrapper container" padding="0">
+      <adv-header />
+
+      <para>
+        <mj-text
+          >Hi <strong>{{ first_name }}, </strong></mj-text
+        >
+      </para>
+      <para>
+        <mj-text
+          >Over the past few weeks, your Advantage Reports have given you a
+          clear view of the competitive dynamics around
+          <a href="{{ product_link }}">{{ product_title }}</a> You&#x2019;ve
+          seen the pricing shifts, the listing changes, the competitors gaining
+          or losing ground.</mj-text
+        >
+      </para>
+      <para>
+        <mj-text
+          >But here&#x2019;s the thing &#x2013; if you sell other products on
+          Amazon, each one sits in its own competitive arena. Different rivals.
+          Different customer behavior. Different threats.</mj-text
+        >
+      </para>
+
+      <para>
+        <mj-text>
+          <strong
+            >Right now, those products don&#x2019;t have the same
+            coverage.</strong
+          >
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text>Remember the pain points we solved for your product?</mj-text>
+      </para>
+
+      <para>
+        <mj-raw>
+          <ul style="padding-left: 26px; margin: 0;"> <li>&#x201C;My sales
+          dropped and I don&#x2019;t know why&#x201D;</li>
+          <li>&#x201C;I&#x2019;m guessing blindly and every guess costs
+          money&#x201D;</li> <li>&#x201C;I know competitors are making moves,
+          but I can&#x2019;t see what&#x201D;</li> </ul>
+        </mj-raw>
+      </para>
+      <para>
+        <mj-text
+          >Your other products still have these problems. A competitor could be
+          undercutting your price, outranking your listing, or stealing share
+          &#x2013; and you wouldn&#x2019;t know until it hit your
+          revenue.</mj-text
+        >
+      </para>
+      <para>
+        <mj-text
+          font-size="16px"
+          font-weight="600"
+          color="#344054"
+          line-height="24px"
+        >
+          <strong>Expanding your account is simple:</strong>
+        </mj-text>
+      </para>
+      <para>
+        <mj-raw>
+          <ul style="padding-left: 26px; margin: 0;"> <li><strong>Reply with the
+          ASIN(s)</strong> you want to add as Hero ASINs</li> <li><strong>We
+          scan then reveal the competitive landscape</strong> and start
+          monitoring within 48 hours</li> <li><strong>Your weekly Advantage
+          Reports</strong> expand to cover your priority products</li> </ul>
+        </mj-raw>
+      </para>
+      <para>
+        <mj-text>
+          Same depth of analysis. Same weekly delivery. More of your business
+          protected.
+        </mj-text>
+      </para>
+      <para>
+        <mj-text
+          font-size="16px"
+          font-weight="600"
+          color="#344054"
+          line-height="24px"
+        >
+          <strong>Think of it this way:</strong>
+        </mj-text>
+      </para>
+      <para>
+        <mj-text
+          >One of our clients, Jason from Ultra Athlete, tracks multiple product
+          lines with
+          <strong
+            >Am<span style="color: #088ab2; text-decoration: underline">ai</span
+            >zing</strong
+          >. When one competitor raises prices, he knows whether to follow
+          &#x2013; across his entire catalog. That&#x2019;s the advantage of
+          comprehensive coverage.</mj-text
+        >
+      </para>
+      <para>
+        <mj-text
+          font-size="16px"
+          font-weight="600"
+          color="#344054"
+          line-height="24px"
+        >
+          <strong>Ready to extend your coverage?</strong>
+        </mj-text>
+      </para>
+      <para>
+        <mj-text
+          >Just reply with your Hero ASINs and we&#x2019;ll take it from there.
+          Questions about pricing for additional products? We&#x2019;re happy to
+          walk you through it.</mj-text
+        >
+      </para>
+      <para>
+        <mj-text
+          >Some brands watch just one product. The best watch their entire
+          portfolio.
+          <strong
+            >Be Am<span style="color: #088ab2; text-decoration: underline"
+              >ai</span
+            >zing.</strong
+          ></mj-text
+        >
+      </para>
+      <para classes="greeting-text">
+        <mj-text>Thanks</mj-text>
+      </para>
+      <para padding-bottom="0">
+        <mj-text
+          >The
+          <strong
+            >Am<span style="color: #088ab2; text-decoration: underline">ai</span
+            >zing</strong
+          >
+          Team</mj-text
+        >
+      </para>
+      <adv-footer />
+    </mj-wrapper>
+  </mj-body>
+</mjml>

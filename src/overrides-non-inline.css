@@ -1,0 +1,13 @@
+/*
+* A global stylesheet to override some styles added by MJML
+* NON-INLINE VERSION
+*
+* Inline overrdies should be added to ./global.css
+*/
+p {
+  margin: 0 0 16px 0 !important;
+}
+
+table {
+  border-collapse: separate !important;
+}

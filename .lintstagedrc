@@ -1,0 +1,4 @@
+{
+  "*.{ts,json}": ["biome check --write ."],
+  "*.templates.json": ["bash .scripts/do-no-commit.aet.sh"]
+}

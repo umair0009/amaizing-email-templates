@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!--<meta name="color-scheme" content="light dark" />-->
+    <!--<meta name="supported-color-schemes" content="light dark" />-->
+    <title>New Trackpack Errors</title>
+    <!--
+    The style block is collapsed on page load to save you some scrolling.
+    Postmark automatically inlines all CSS properties for maximum email client
+    compatibility. You can just update styles here, and Postmark does the rest.
+  -->
+    <style type="text/css" rel="stylesheet" media="all">
+    /* Base ------------------------------ */
+    @import url("https://s3.amaizing.io/public/css/fonts.style.css");
+           
+    body {
+      font-family: 'Font37 Bolton',sans-serif;
+      width: 100% !important;
+      height: 100%;
+      margin: 0;
+      -webkit-text-size-adjust: none;
+    }
+    
+    td {
+      word-break: break-word;
+    }
+    .email-body_inner{
+      margin: 0 auto;
+    }
+    .main-container{
+      padding: 30px 54px;
+    }
+    .large-text{
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 32px;
+    }
+    .regular-text{
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 24px;
+    }
+    .medium-bold{
+      font-size: 16px;
+      line-height:24px;
+      font-weight:500;
+    }
+    .bold-text{
+       font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+    }
+    .view-btn{
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      padding:10px 18px;
+    }
+    .sm-medium{
+      font-size:14px;
+      line-height:18px;
+      font-weight:300;
+    }
+    
+    .small-text{
+      font-size: 12px;
+      text-decoration: none;
+      font-weight:300;
+    }
+    
+    @media only screen and (max-width: 600px) {
+      .email-body_inner,
+      .email-footer {
+        width: 100% !important;
+      }
+      
+    .main-container{
+      padding: 24px !important;
+    }
+    
+    .w-530{
+      max-width:100% !important;
+    }
+    .view-btn{
+      padding:10px 16px !important;
+    }
+      
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #333333 !important;
+        color: #FFF !important;
+        
+      }
+
+      .attributes_content,
+      .discount {
+        background-color: #222 !important;
+      }
+      .email-masthead_name {
+        text-shadow: none !important;
+      }
+    }
+
+    /*:root {*/
+    /*  color-scheme: light dark;*/
+    /*  supported-color-schemes: light dark;*/
+    /*}*/
+    
+  
+    
+   
+    </style>
+
+  </head>
+  <body>
+    <table class="email-wrapper" width="100%" cellpadding="0" cellspacing="0" role="presentation">
+      <tr>
+        <td align="center">
+          <table class="email-content" width="100%" cellpadding="0" cellspacing="0" role="presentation">
+   
+            <!-- Email Body -->
+            <tr>
+              <td class="email-body" width="570" cellpadding="0" cellspacing="0">
+                <table class="email-body_inner" align="center" width="570" cellpadding="0" cellspacing="0" role="presentation">
+                  <tr>
+                    <td>
+                    <div style="box-sizing: border-box;">
+      <div style="box-sizing: border-box; background: rgba(255, 255, 255, 1);max-width: 620px;width: 100%;margin: 0 auto;" class="main-container">
+  
+      <img src="https://s3.amaizing.io/public/images/email/header_logo.png" style="width: 124px;height: 60px;" alt="logo" />
+        <section style="  box-sizing: border-box; margin: 56px 0 0 0;">
+          <h1 class="large-text" style="font-family: 'Font37 Bolton', sans-serif; box-sizing: border-box; color: rgba(52, 64, 84, 1);margin-bottom: 32px;">Hi {{name}}</h1>
+
+          <div>
+            <p class="regular-text w-530" style=" font-family: 'Font37 Bolton', sans-serif; display:inline-block box-sizing: border-box; color: rgba(52, 64, 84, 1);max-width:530px; width:100%;">I've got good news and bad news about your new Trackpack <b class="bold-text" style="font-family: 'Font37 Bolton', sans-serif; box-sizing: border-box; color: rgba(52, 64, 84, 1);">{{trackpack_name}}.</b></p>
+            
+              <p class="regular-text" style="font-family: 'Font37 Bolton', sans-serif; box-sizing: border-box; margin-bottom: 15px; color: rgba(52, 64, 84, 1);display: flex;flex-flow: column;">😬</p>
+              
+               <p style="font-family: 'Font37 Bolton', sans-serif; box-sizing: border-box; color: rgba(52, 64, 84, 1);max-width:530px; width:100%;" class="regular-text w-530"><b style="font-family: 'Font37 Bolton', sans-serif; box-sizing: border-box; color: rgba(52, 64, 84, 1);" class="bold-text">Good news:</b> {{asins_without_issues_count}} ASIN{{#multiple_asins_without_issues}}s{{/multiple_asins_without_issues}} you gave me {{#multiple_asins_without_issues}}are{{/multiple_asins_without_issues}}{{#only_1_asin_without_issues}}is{{/only_1_asin_without_issues}} tracking perfectly. 😀 </p>
+               
+               <p style="font-family: 'Font37 Bolton', sans-serif; box-sizing: border-box; color: rgba(52, 64, 84, 1);max-width:530px; width:100%;" class="regular-text w-530"><b style="font-family: 'Font37 Bolton', sans-serif; box-sizing: border-box; color: rgba(52, 64, 84, 1);" class="bold-text">Bad news:</b> There {{#only_1_asins_with_issues}}is{{/only_1_asins_with_issues}}{{#multiple_asins_with_issues}}are{{/multiple_asins_with_issues}} {{asins_issues_count}} ASIN{{#multiple_asins_with_issues}}s{{/multiple_asins_with_issues}} that {{#multiple_asins_with_issues}}have{{/multiple_asins_with_issues}}{{#only_1_asins_with_issues}}has a{{/only_1_asins_with_issues}} data issue{{#multiple_asins_with_issues}}s{{/multiple_asins_with_issues}}. 🤨 </p>
+               
+               <h2 style="margin-bottom:15px; font-family: 'Font37 Bolton', sans-serif; box-sizing: border-box; color: #06AED4;" class="medium-bold">ASIN data errors:</h2>
+               
+              
+               
+               <ul id="asin-list" style="margin-bottom:20px; margin-top:0; padding-left:16px; font-family: 'Font37 Bolton', sans-serif; box-sizing: border-box;">
+                {{#each asins_with_issues }}
+                 <li style="margin-bottom: 5px;">
+                    <span class="regular-text" style="color:#344054;"> {{asin_with_issues}}</span> – <span style="font-size:16px; font-weight:300; color:#344054;"> {{issue}}</span>
+                  </li>
+                {{/each}}
+              </ul>  
+                
+        <p style="font-family: 'Font37 Bolton', sans-serif; box-sizing: border-box; margin-bottom: 20px; color: rgba(52, 64, 84, 1);font-size: 16px;font-style: normal;font-weight: 300;line-height: 24px;display: flex;flex-flow: column;">You may wish to review these {{asins_issues_count}} ASIN{{#multiple_asins_with_issues}}s{{/multiple_asins_with_issues}} and possibly replace them with alternatives in your Trackpack.</p>
+        
+          <p style="font-family: 'Font37 Bolton', sans-serif; box-sizing: border-box; margin-bottom: 20px; color: rgba(52, 64, 84, 1);font-size: 16px;font-style: normal;font-weight: 300;line-height: 24px;display: flex;flex-flow: column;">Click below to review now.</p>
+        
+          </div>
+
+          <a class="view-btn" href="{{base_url}}/dashboard?tp_id={{trackpack_id}}" rel="#" style="font-family: 'Font37 Bolton', sans-serif;color:#fff;display:inline-flex; align-items:center; justify-content: center;box-sizing: border-box; height:44px;text-align: center;background-color: #06aed4;background-image: linear-gradient(117.03deg, #22ccee 0%, #06aed4 100%);border: transparent;border-radius: 8px;margin-top: 32px;cursor: pointer; text-decoration: none;">View now</a>
+          <p style="font-family: 'Font37 Bolton', sans-serif; box-sizing: border-box; font-size: 12px;font-weight: 300;line-height: 18px;color: rgba(52, 64, 84, 1);padding-top:32px;">
+            Link not working? <a href="{{base_url}}/dashboard?tp_id={{trackpack_id}}" style="font-family: 'Font37 Bolton', sans-serif; box-sizing: border-box; color: #06AED4;font-size: inherit;text-decoration: none; font-weight:500;">Click here</a>
+          </p>
+        </section>
+        
+        <footer style="box-sizing: border-box; margin-top: 56px;">
+           
+            <p style="font-family: 'Font37 Bolton', sans-serif; box-sizing: border-box; font-size: 12px;font-weight: 300;line-height: 18px;color: rgba(52, 64, 84, 1);">
+              <span style="cursor:pointer; color: #06AED4;font-family: 'Font37 Bolton', sans-serif; font-size: 12px;font-weight: 500;line-height: 18px;">
+                <a href="{{base_url}}/dashboard/user-settings/alerts" style="font-family: 'Font37 Bolton', sans-serif; box-sizing: border-box; color: #06AED4;font-size: inherit;text-decoration: none; font-weight:500;">Click here</a>
+              </span>
+            to configure your email notification settings.
+          </p>
+          <p style="font-family: 'Font37 Bolton', sans-serif; box-sizing: border-box; font-size: 12px;font-weight: 300;line-height: 18px;color: rgba(52, 64, 84, 1);">
+            © 2024 Amaizing, Inc., 8 The Green Suite B, Dover, DE 19901, USA
+          </p>
+          <div style="box-sizing: border-box; display: flex;align-items: center;justify-content: space-between;margin-top: 48px;width:100%;">
+            <a href="{{base_url}}/auth/login" style="display:block;text-decoration: none;">
+            <img src="https://s3.amaizing.io/public/images/email/footer_logo-4x.png" style="width: 32px; height:28px;" alt="mini logo" />
+            </a>
+
+            <ul style="box-sizing: border-box; margin-top:0; display: none;align-items: center;gap: 16px;list-style-type: none;padding-left: 0;margin-bottom: 0; margin-left: auto;">
+                <li>
+                <a href="#" style="display:block; box-sizing: border-box;text-decoration: none;">
+                     <img src="https://s3.amaizing.io/public/images/Twitter_Email_Icon.svg" alt="social X icon" />
+                </a>
+              </li>
+                 <li>
+                <a href="#" style="display:block; box-sizing: border-box;text-decoration: none;
+                  ">
+                 <img src="https://s3.amaizing.io/public/images/FB_Email_Icon.svg" alt="social X icon" />
+                </a>
+              </li>
+              <li>
+                <a href="#" style="display:block; text-decoration: none;box-sizing: border-box;
+                  ">
+                    <img src="https://s3.amaizing.io/public/images/Insta_Email_Icon.svg" alt="social X icon" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </td>
+  </tr>
+      <tr>
+          <td class="content-cell">
+            <div class="f-fallback">
+            </div>
+            </td>
+            </tr>
+  </table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

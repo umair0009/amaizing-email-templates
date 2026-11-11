@@ -1,0 +1,39 @@
+|<?xml version="1.0"?>
+<mjml>
+  <mj-head></mj-head>
+  <mj-body>
+    <mj-section css-class="example-head">
+      <mj-column css-class="example">
+        <mj-text><h1>Perpendicular + MJML</h1></mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="example-body">
+      <mj-column>
+        <mj-text
+          ><strong>{{ subtitle }}</strong></mj-text
+        >
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-image src="{{ @asset file }}" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text
+          ><strong>{{ subtitle }}</strong></mj-text
+        >
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-image src="{{ @asset footerLogo }}" width="24px" height="24px" />
+      </mj-column>
+    </mj-section>
+  </mj-body> </mjml
+>|

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<mj-wrapper css-class="ai footer-wrapper ${this.getAttribute('classes')} ">
+  <para>
+    <mj-text font-size="12px" font-font-weight="300" color="#344054"
+      >&#xA9; 2025 Amaizing, Inc., 8 The Green Suite B, Dover, DE 19901,
+      USA</mj-text
+    >
+  </para>
+  <para>
+    <mj-image
+      padding="0"
+      css-class="footer-logo"
+      width="32px"
+      height="28px"
+      src="{{ @asset advFooterLogo }}"
+      alt="Logomark"
+    />
+  </para>
+</mj-wrapper>

@@ -1,0 +1,41 @@
+.ai.para-section > table > tbody > tr > td {
+  padding: 0 0 32px 0 !important;
+}
+
+.ai.para-section.pb-override > table > tbody > tr > td {
+  padding: 0 !important;
+}
+
+.ai.para-section table tbody tr td a,
+.ai.para-section table tbody tr td a span strong {
+  color: #088ab2 !important;
+  font-weight: 600 !important;
+}
+
+.ai.btn.btn-wrapper {
+  padding: 32px 0px 32px 0 !important;
+}
+
+.ai.btn.btn-wrapper table tbody tr td {
+  padding: 0 !important;
+}
+
+.ai.footer.footer-sec
+  table
+  tbody
+  tr
+  td
+  > .mj-column-per-100.mj-outlook-group-fix
+  .footer-text {
+  padding: 64px 0 48px 0 !important;
+}
+
+.ai.footer.footer-sec
+  table
+  tbody
+  tr
+  td
+  > .mj-column-per-100.mj-outlook-group-fix
+  .footer-logo {
+  padding-bottom: 32px !important;
+}

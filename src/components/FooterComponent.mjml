@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<mj-wrapper css-class="ai footer ${this.getAttribute('classes')}">
+  <mj-section css-class="">
+    <mj-column padding="0">
+      <mj-text
+        css-class="footer-text"
+        padding="0"
+        color="#344054"
+        align="left"
+        line-height="20px"
+      >
+        &#xA9; 2025 Amaizing, Inc. 8 The Green Suite B, Dover, DE 19901, USA
+      </mj-text>
+    </mj-column>
+  </mj-section>
+  <mj-section css-class="">
+    <mj-column padding="0">
+      <mj-image
+        css-class="footer-logo"
+        align="left"
+        width="32px"
+        height="28px"
+        padding="0"
+        src="https://app-stg.amaizing.io/pngs/AmaizingFooterLogo.png"
+        alt="Logomark"
+      />
+    </mj-column>
+  </mj-section>
+</mj-wrapper>

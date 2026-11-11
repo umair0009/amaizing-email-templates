@@ -1,0 +1,95 @@
+/* F37Bolton-Bold */
+@font-face {
+  font-family: "F37Bolton";
+  src:
+    url("https://app.amaizing.io/intLanding/fonts/webfonts/F37Bolton-Bold.woff")
+      format("woff"),
+    url("https://app.amaizing.io/intLanding/fonts/webfonts/F37Bolton-Bold.woff2")
+      format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "F37Bolton";
+  src:
+    url("https://app.amaizing.io/intLanding/fonts/webfonts/F37Bolton-BoldItalic.woff")
+      format("woff"),
+    url("https://app.amaizing.io/intLanding/fonts/webfonts/F37Bolton-BoldItalic.woff2")
+      format("woff2");
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* F37Bolton-Book */
+@font-face {
+  font-family: "F37Bolton";
+  src:
+    url("https://app.amaizing.io/intLanding/fonts/webfonts/F37Bolton-Book.woff")
+      format("woff"),
+    url("https://app.amaizing.io/intLanding/fonts/webfonts/F37Bolton-Book.woff2")
+      format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "F37Bolton";
+  src:
+    url("https://app.amaizing.io/intLanding/fonts/webfonts/F37Bolton-BookItalic.woff")
+      format("woff"),
+    url("https://app.amaizing.io/intLanding/fonts/webfonts/F37Bolton-BookItalic.woff2")
+      format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* F37Bolton-Light */
+@font-face {
+  font-family: "F37Bolton";
+  src:
+    url("https://app.amaizing.io/intLanding/fonts/webfonts/F37Bolton-Light.woff")
+      format("woff"),
+    url("https://app.amaizing.io/intLanding/fonts/webfonts/F37Bolton-Light.woff2")
+      format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "F37Bolton";
+  src:
+    url("https://app.amaizing.io/intLanding/fonts/webfonts/F37Bolton-LightItalic.woff")
+      format("woff"),
+    url("https://app.amaizing.io/intLanding/fonts/webfonts/F37Bolton-LightItalic.woff2")
+      format("woff2");
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* F37Bolton-Medium */
+@font-face {
+  font-family: "F37Bolton";
+  src:
+    url("https://app.amaizing.io/intLanding/fonts/webfonts/F37Bolton-Medium.woff")
+      format("woff"),
+    url("https://app.amaizing.io/intLanding/fonts/webfonts/F37Bolton-Medium.woff2")
+      format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "F37Bolton";
+  src:
+    url("https://app.amaizing.io/intLanding/fonts/webfonts/F37Bolton-MediumItalic.woff")
+      format("woff"),
+    url("https://app.amaizing.io/intLanding/fonts/webfonts/F37Bolton-MediumItalic.woff2")
+      format("woff2");
+  font-weight: 500;
+  font-style: italic;
+}
+
+* {
+  font-family: "F37Bolton", sans-serif !important;
+}

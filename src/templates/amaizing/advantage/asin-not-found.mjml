@@ -1,0 +1,119 @@
+<mjml>
+  <mj-head>
+    <mj-title>ASIN not found</mj-title>
+    <mj-attributes>
+      <mj-all font-family="'F37Bolton', Arial, sans-serif" />
+      <mj-text font-family="'F37Bolton', Arial, sans-serif" />
+      <mj-button font-family="'F37Bolton', Arial, sans-serif" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body css-class="body">
+    <mj-wrapper css-class="container" padding="0">
+      <adv-header />
+
+      <para>
+        <mj-text
+          font-size="16px"
+          line-height="24px"
+          color="#344054"
+          font-weight="300"
+          >Hi <strong>{{ first_name }}, </strong></mj-text
+        >
+      </para>
+
+      <para>
+        <mj-text
+          font-size="16px"
+          line-height="24px"
+          color="#344054"
+          font-weight="300"
+        >
+          Unfortunately, we could not find ASIN
+          <a
+            href="https://amazon.{{amazon_tld}}/dp/{{client_asin}}"
+            style="
+              color: #088ab2 !important;
+              font-weight: 400 !important;
+              text-decoration: underline !important;
+            "
+          >
+            {{ client_asin }}</a
+          >
+          on Amazon. It could be a temporary error or that the product doesn’t
+          exist on Amazon.</mj-text
+        >
+      </para>
+
+      <para>
+        <mj-text
+          font-size="16px"
+          font-weight="300"
+          line-height="24px"
+          color="#344054"
+        >
+          Please go to the
+          <a
+            href="https://revup{{ app_subdomain_suffix }}.amaizing.io/?utm_source=error-email-{{uuid}}"
+            ><span class="blue-text"
+              ><strong
+                style="
+                  text-decoration: underline !important;
+                  font-weight: 400 !important;
+                "
+                >RevUp Engine</strong
+              ></span
+            ></a
+          >
+          and fill in the form again; you can try the same ASIN ensuring it is
+          valid, try another ASIN. If you are still having trouble, please
+          <a href="mailto:revup@amaizing.io"
+            ><span class="blue-text"
+              ><strong
+                style="
+                  text-decoration: underline !important;
+                  font-weight: 400 !important;
+                "
+                >Contact Us</strong
+              ></span
+            ></a
+          >
+          for help.
+        </mj-text>
+      </para>
+
+      <para classes="">
+        <mj-text
+          font-size="16px"
+          line-height="24px"
+          color="#344054"
+          font-weight="300"
+          >We apologize for the inconvenience and thank you for your
+          understanding.</mj-text
+        >
+      </para>
+      <para classes="greeting-text">
+        <mj-text
+          align="left"
+          font-size="16px"
+          line-height="24px"
+          color="#344054"
+          font-weight="300"
+          line-height="24px"
+          css-class="text-font"
+        >
+          Thanks for your understanding
+        </mj-text>
+      </para>
+
+      <ai-cta
+        classes="btn-wrapper"
+        link="https://revup{{ app_subdomain_suffix }}.amaizing.io/?utm_source=error-email-{{uuid}}"
+        text="Try again"
+      >
+      </ai-cta>
+
+      <footer classes="footer-sec" />
+    </mj-wrapper>
+  </mj-body>
+</mjml>

@@ -1,0 +1,67 @@
+{
+  "name": "@amaizing-inc/email-templates",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "amaizing-inc",
+    "email-templates",
+    "mjml",
+    "perpendicular"
+  ],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "yarn perpendicular build --watch --mode dev",
+    "build": "yarn perpendicular build --mode prod",
+    "build:debug": "DEBUG=true DEBUG_TIMEOUT=30 yarn perpendicular build --mode prod",
+    "lint": "biome check .",
+    "check": "oxlint . && oxfmt --check .",
+    "fix": "oxlint --fix . && oxfmt .",
+    "postinstall": "is-ci && node 'node_modules/@amaizing-inc/mustachio/.scripts/postinstall.cjs' || true"
+  },
+  "dependencies": {
+    "@css-inline/css-inline": "^0.17.0",
+    "cheerio": "^1.1.2",
+    "json-stable-stringify": "^1.3.0",
+    "mjml": "^4.7.1",
+    "mjml-core": "^4.16.1",
+    "mjml-validator": "^4.16.1",
+    "serve-index": "^1.9.1",
+    "serve-static": "^2.2.0",
+    "simple-git": "^3.30.0",
+    "sirv": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@amaizing-inc/apis-common": "^3.3.7",
+    "@amaizing-inc/apis-postmark": "^2.1.9",
+    "@amaizing-inc/leafs-fetch": "^2.6.10",
+    "@amaizing-inc/leafs-underscore": "^3.0.8",
+    "@amaizing-inc/mustachio": "^0.4.3",
+    "@amaizing-inc/perpendicular-cli": "^1.0.49",
+    "@amaizing-inc/perpendicular-core": "^1.3.13",
+    "@amaizing-inc/perpendicular-plugin-assets": "^2.0.17",
+    "@amaizing-inc/perpendicular-plugin-email": "^1.5.19",
+    "@amaizing-inc/perpendicular-plugin-web": "^1.2.17",
+    "@aws-sdk/client-s3": "^3.1008.0",
+    "@aws-sdk/s3-request-presigner": "^3.1053.0",
+    "@swc/core": "^1.15.40",
+    "@types/jsdom": "^27.0.0",
+    "@types/mjml": "latest",
+    "@types/mjml-core": "^4.15.2",
+    "@types/mjml-validator": "^4.13.4",
+    "@types/node": "^24.0.0",
+    "bufferutil": "^4.1.0",
+    "is-ci": "^4.1.0",
+    "markdown-wasm": "^1.2.0",
+    "valibot": "^1.4.0"
+  },
+  "engines": {
+    "node": "22.x.x"
+  },
+  "packageManager": "yarn@4.14.1"
+}

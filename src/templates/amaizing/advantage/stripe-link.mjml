@@ -1,0 +1,90 @@
+<mjml>
+  <mj-head>
+    <mj-title>Your Amaizing subscription is ready to activate</mj-title>
+  </mj-head>
+
+  <mj-body background-color="#FFFFFF">
+    <mj-wrapper css-class="container" padding="0">
+      <adv-header />
+
+      <para>
+        <mj-text>
+          Hi <strong>{{ first_name }}, </strong>
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text> Great to have you on board! </mj-text>
+      </para>
+
+      <para>
+        <mj-text>
+          Here’s your link to activate your subscription for
+          {{ number_of_asins }} ASINs:
+        </mj-text>
+      </para>
+
+      <ai-btn-ico
+        classes="btn-wrapper"
+        href="{{ stripe_link }}"
+        iconSrc="https://app-stg.amaizing.io/pngs/arrow-circle-right.png"
+        >Activate My Subscription</ai-btn-ico
+      >
+
+      <para>
+        <mj-text>
+          <strong>Your Plan: </strong> {{ plan_name }} @ ${{ plan_price }}/month
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text> What’s included: </mj-text>
+      </para>
+
+      <para>
+        <mj-raw>
+          <ul style="padding-left: 26px; margin: 0;"> <li><strong>Weekly
+          Advantage Reports </strong> – every competitive shift in your market,
+          explained and delivered fast, directly to you</li>
+          <li><strong>Continuous competitor monitoring</strong> – pricing,
+          reviews, listing changes, and sales rank movements tracked 24/7</li>
+          <li><strong>Deep Dive Analyses</strong> – strategic intelligence on
+          your biggest questions, delivered in 48-72 hours</li>
+          <li><strong>Expert Support</strong> – questions about your market?
+          Reply to any report and our team responds</li> </ul>
+        </mj-raw>
+      </para>
+
+      <para>
+        <mj-text>
+          Once payment is confirmed, your monitoring continues without
+          interruption. Your next Advantage Report will arrive next week as
+          usual.
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text>
+          Questions or need to adjust your plan? Just reply to this email.
+        </mj-text>
+      </para>
+
+      <para classes="greeting-text">
+        <mj-text> Thanks, </mj-text>
+      </para>
+
+      <para>
+        <mj-text>
+          The
+          <strong
+            >Am<span style="color: #088ab2; text-decoration: underline">ai</span
+            >zing</strong
+          >
+          Team
+        </mj-text>
+      </para>
+
+      <adv-footer />
+    </mj-wrapper>
+  </mj-body>
+</mjml>

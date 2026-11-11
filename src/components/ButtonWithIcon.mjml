@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<mj-wrapper css-class="ai btn ${this.getAttribute('classes')}">
+  <mj-button
+    background-color="#06AED4"
+    border-radius="8px"
+    inner-padding="0px"
+    padding="12px 24px"
+    font-size="16px"
+    font-weight="500"
+    align="left"
+    href="${this.getAttribute('href')}"
+  >
+    ${this.getContent()}
+    <img
+      src="${this.getAttribute('iconSrc')}"
+      alt="Watch what's in your rival report"
+      width="20"
+      height="20"
+    />
+  </mj-button>
+</mj-wrapper>

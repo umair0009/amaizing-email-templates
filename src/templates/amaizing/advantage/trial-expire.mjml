@@ -1,0 +1,96 @@
+<mjml>
+  <mj-head>
+    <mj-title>Your market visibility goes dark TOMORROW!!!</mj-title>
+  </mj-head>
+
+  <mj-body background-color="#FFFFFF">
+    <mj-wrapper css-class="container" padding="0">
+      <adv-header />
+
+      <para>
+        <mj-text>
+          Hi <span>{{ first_name }}, </span>
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text>
+          Over the past two weeks, your <strong>Advantage Reports</strong> for
+          <a href="{{ product_link }}">{{ product_title }}</a> have tracked
+          every meaningful move in your competitive landscape.
+        </mj-text>
+      </para>
+      <para>
+        <mj-text>
+          Price shifts, listing changes, new entrants, review momentum – you’ve
+          had 20/20 vision of everything going on.</mj-text
+        >
+      </para>
+
+      <para>
+        <mj-text>
+          <strong>Your FREE trial ends tomorrow.</strong>
+        </mj-text>
+      </para>
+
+      <para classes="greeting-text">
+        <mj-text>
+          Here’s what that means: the competitors we’ve been tracking for you
+          won’t pause. They’ll keep adjusting prices, running promotions, and
+          optimizing listings – and without
+          <strong
+            >Am<span style="color: #088ab2; text-decoration: underline">ai</span
+            >zing</strong
+          >, you’ll be back to:
+          <span style="font-style: italic"
+            >“My sales dropped and I don’t know why.</span
+          >”
+        </mj-text>
+      </para>
+
+      <ai-btn-ico
+        classes="btn-wrapper"
+        href="{{ stripe_link }}"
+        iconSrc="https://app-stg.amaizing.io/pngs/check-circle-broken.png"
+        >Subscribe Now</ai-btn-ico
+      >
+
+      <para>
+        <mj-text>
+          Plans start at <strong>$60/month per Hero ASIN.</strong> That’s less
+          than the cost of a single missed competitor move (most brands lose
+          5-15% of potential revenue to invisible market shifts).
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text>
+          Questions about which plan is right for you? Just reply to this email.
+        </mj-text>
+      </para>
+
+      <para>
+        <mj-text>
+          Some brands guess. The best see clearly. Be the best.
+        </mj-text>
+      </para>
+
+      <para classes="greeting-text">
+        <mj-text> Thanks, </mj-text>
+      </para>
+
+      <para>
+        <mj-text>
+          The
+          <strong
+            >Am<span style="color: #088ab2; text-decoration: underline">ai</span
+            >zing</strong
+          >
+          Team
+        </mj-text>
+      </para>
+
+      <adv-footer />
+    </mj-wrapper>
+  </mj-body>
+</mjml>

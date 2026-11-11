@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<mj-section css-class="ai para-section ${this.getAttribute('classes')}">
+  <mj-column padding="0" css-class="ai para-col">
+    <mj-text css-class="ai para-text"> ${this.renderChildren()} </mj-text>
+  </mj-column>
+</mj-section>

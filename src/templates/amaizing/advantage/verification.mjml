@@ -1,0 +1,202 @@
+<mjml>
+  <mj-head>
+    <mj-title>Verify your email · Nuanced Media</mj-title>
+    <mj-preview
+      >One click confirms your email so we can send your Market Map within 24
+      hours.</mj-preview
+    >
+    <mj-attributes>
+      <mj-all
+        font-family="'Source Sans 3', 'Helvetica Neue', Arial, sans-serif"
+      />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#F1EFE9">
+    <!-- Outer top spacer — colored gap above card -->
+    <mj-section
+      padding="32px 0 0"
+      background-color="#F1EFE9"
+      css-class="nm-spacer"
+    >
+      <mj-column padding="0">
+        <mj-spacer height="1px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Card: white bg, rounded corners, border -->
+    <mj-wrapper
+      background-color="#FFFFFF"
+      border="1px solid #E2E2E2"
+      border-radius="20px"
+      padding="0"
+      css-class="nm-card"
+    >
+      <!-- Header band -->
+      <mj-section
+        background-color="#107569"
+        padding="30px 40px"
+        css-class="nm-header"
+      >
+        <mj-column padding="0">
+          <mj-image
+            src="{{ @asset nuancedMediaLogo }}"
+            width="145px"
+            alt="Nuanced Media"
+            align="left"
+            padding="0"
+            css-class="nm-logo"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Eyebrow + headline -->
+      <mj-section
+        background-color="#FFFFFF"
+        padding="40px 40px 0"
+        css-class="nm-section"
+      >
+        <mj-column padding="0">
+          <mj-text padding="0 0 14px" css-class="nm-eyebrow">
+            Your Market Map
+          </mj-text>
+          <mj-text padding="0" css-class="nm-headline">
+            Confirm your email to unlock your Market Map
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Body copy -->
+      <mj-section
+        background-color="#FFFFFF"
+        padding="24px 40px 0"
+        css-class="nm-section"
+      >
+        <mj-column padding="0">
+          <mj-text padding="0 0 18px" css-class="nm-body">
+            Hi {{ first_name }},
+          </mj-text>
+          <mj-text padding="0 0 18px" css-class="nm-body">
+            Thanks for asking us to map your market. Before we get to work, we
+            need to confirm this email address is yours &ndash; it&rsquo;s how
+            we&rsquo;ll send every report from here.
+          </mj-text>
+          <mj-text padding="0 0 8px" css-class="nm-body">
+            One click does it:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- CTA button -->
+      <mj-section
+        background-color="#FFFFFF"
+        padding="18px 40px 30px"
+        css-class="nm-cta-section"
+      >
+        <mj-column padding="0">
+          <mj-button
+            background-color="#107569"
+            color="#FFFFFF"
+            font-size="15px"
+            font-weight="500"
+            border-radius="26px"
+            inner-padding="0 38px"
+            line-height="52px"
+            padding="0"
+            align="left"
+            href="{{ base_url }}/verify-email?token={{ token }}"
+            css-class="nm-cta-btn"
+          >
+            Verify my email
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Hairline divider -->
+      <mj-section
+        background-color="#FFFFFF"
+        padding="0 40px"
+        css-class="nm-divider-wrap"
+      >
+        <mj-column padding="0">
+          <mj-divider
+            border-color="#E2E2E2"
+            border-width="1px"
+            padding="0"
+            css-class="nm-divider"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Post-verify copy -->
+      <mj-section
+        background-color="#FFFFFF"
+        padding="26px 40px 0"
+        css-class="nm-section"
+      >
+        <mj-column padding="0">
+          <mj-text padding="0 0 18px" css-class="nm-body">
+            Once you&rsquo;ve verified, we&rsquo;ll start analyzing your market
+            and your Market Map will arrive at this address within 24 hours
+            &ndash; the customer behavior driving your category, the rivals
+            competing for those customers, and the search terms behind every
+            move.
+          </mj-text>
+          <mj-text padding="0" css-class="nm-muted">
+            If you didn&rsquo;t request this, you can ignore the email.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Sign-off -->
+      <mj-section
+        background-color="#FFFFFF"
+        padding="24px 40px 40px"
+        css-class="nm-section"
+      >
+        <mj-column padding="0">
+          <mj-text padding="0" css-class="nm-body">
+            Thanks,<br /><span class="nm-team-name"
+              >The Nuanced Media Team</span
+            >
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- Footer -->
+    <mj-section
+      padding="24px 40px 4px"
+      background-color="#F1EFE9"
+      css-class="nm-footer"
+    >
+      <mj-column padding="0">
+        <mj-text align="center" padding="0 0 4px" css-class="nm-footer-brand">
+          Nuanced Media &middot; Amazon &amp; eCommerce Growth Partner
+        </mj-text>
+        <mj-text align="center" padding="0" css-class="nm-footer-links">
+          <a class="nm-link" href="https://www.nuancedmedia.com"
+            >nuancedmedia.com</a
+          >
+          &nbsp;&middot;&nbsp;
+          <a class="nm-link" href="mailto:hello@nuancedmedia.com"
+            >hello@nuancedmedia.com</a
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Copyright -->
+    <mj-section
+      padding="4px 40px 32px"
+      background-color="#F1EFE9"
+      css-class="nm-copyright-section"
+    >
+      <mj-column padding="0">
+        <mj-text align="center" padding="0" css-class="nm-copyright">
+          &copy; 2026 Nuanced Media. All rights reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

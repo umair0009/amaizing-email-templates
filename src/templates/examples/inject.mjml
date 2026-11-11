@@ -1,0 +1,14 @@
+<mjml>
+  <mj-head>
+    <mj-title>Inject</mj-title>
+    <mj-attributes> </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="inject">Inject <span class="inject"></span></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

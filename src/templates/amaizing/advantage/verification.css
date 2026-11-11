@@ -1,0 +1,131 @@
+/* =============================================
+   Nuanced Media – Verification Email Styles
+   ============================================= */
+p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Eyebrow label */
+.nm-eyebrow div {
+  display: inline-block !important;
+  font-family: 'F37 Bolton', 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1.7px !important;
+  text-transform: uppercase !important;
+  color: #107569 !important;
+  background-color: #F0FDF9 !important;
+  border: 1px solid #D0EEE7 !important;
+  border-radius: 999px !important;
+  padding: 6px 12px !important;
+}
+
+/* Headline */
+.nm-headline div {
+  font-size: 28px !important;
+  line-height: 1.25 !important;
+  font-weight: 700 !important;
+  color: #107569 !important;
+  letter-spacing: -0.01em !important;
+}
+
+/* Body copy */
+.nm-body div {
+  font-size: 17px !important;
+  line-height: 1.65 !important;
+  color: #1D2939 !important;
+}
+
+/* Muted / disclaimer text */
+.nm-muted div {
+  font-size: 15px !important;
+  line-height: 1.65 !important;
+  color: #667085 !important;
+}
+
+/* Team sign-off name */
+.nm-team-name {
+  font-weight: 500 !important;
+  color: #107569 !important;
+}
+
+/* CTA button — color must override the global a:link rule */
+.nm-cta-btn a,
+.nm-cta-btn a:link,
+.nm-cta-btn a:visited {
+  color: #ffffff !important;
+  letter-spacing: 0.01em !important;
+}
+
+/* Links */
+.nm-link {
+  color: #107569 !important;
+  font-weight: 400 !important;
+  text-decoration: underline !important;
+}
+
+/* Footer brand line */
+.nm-footer-brand div {
+    padding: 0px 0px 4px 0px !important;
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+    color: #667085 !important;
+}
+
+/* Footer links line */
+.nm-footer-links div {
+  font-size: 15px !important;
+  line-height: 1.6 !important;
+  color: #667085 !important;
+}
+
+/* Copyright */
+.nm-copyright div {
+  font-size: 15px !important;
+  line-height: 1.5 !important;
+  color: #667085 !important;
+}
+
+/* =============================================
+   Responsive — mobile (max 620px)
+   ============================================= */
+@media only screen and (max-width: 620px) {
+
+  /* Reduce content padding on mobile */
+  .nm-header>table>tbody>tr>td {
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+  }
+
+  .nm-section>table>tbody>tr>td {
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+  }
+
+  .nm-cta-section>table>tbody>tr>td {
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+  }
+
+  .nm-divider-wrap>table>tbody>tr>td {
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+  }
+
+  /* Make CTA full-width on mobile */
+  .nm-cta-btn a {
+    display: block !important;
+  }
+
+  /* Reduce footer padding on mobile */
+  .nm-footer>table>tbody>tr>td {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .nm-copyright-section>table>tbody>tr>td {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
